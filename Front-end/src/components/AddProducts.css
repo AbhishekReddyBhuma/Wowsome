@@ -1,0 +1,65 @@
+.form-container{
+    width: 100%;
+    height: 100vh;
+    margin: 50px auto 0;
+    border: 1px solid #ccc;
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px #ccc;
+    font: normal normal normal 14px/19px Avenir
+}
+
+.name, .description, .price, .category, .inStock, .width, .height, .depth, .weight , .image{
+    width: 50%;
+    margin-bottom: 10px ;
+    padding: 5px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+label {
+    margin-bottom: 5px;
+    width: 20%;
+    font-weight: bold;
+}
+
+#name, #description, #price, #category, #width, #height, #depth, #weight{
+    border-radius: 5px;
+    padding: 8px;
+    padding-left: 10px;
+    width: 100%;
+    border: 0px;
+    outline: 0px;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 5px gray;
+}
+
+#inStock-true input, #inStock-false input:hover{
+    cursor: pointer;
+}
+
+button {
+    border-radius: 25px;
+    padding: 10px;
+    margin-left: 5px;
+    margin-top: 15px;
+    border-style: hidden;
+    width: 15%;
+    font: normal normal normal 14px/19px Avenir;
+    font-weight: bold;
+    box-shadow: 2px 2px 3px gray;
+}
+
+button:hover {
+    background-color: rgb(59, 122, 232);
+    color: white;
+    cursor: pointer;
+}
+
+.button {
+    text-align: center;
+    width: 50%;
+}
